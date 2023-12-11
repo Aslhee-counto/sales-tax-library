@@ -420,7 +420,7 @@ public class IRASService {
                     (form.equalsIgnoreCase("f5") ? ("?scope=" + "GSTF5F8SubCP+GSTTxnLstgSubCP") :
                             ("?scope=" + "GSTF5F8SubCP")) +
                     "&callback_url=" + properties.getCallback() +
-                    "&state=" + defineProfile() + legalName +
+                    "&state=sales-tax_" + legalName +
                     "&tax_agent=" + (form.equalsIgnoreCase("f5") ? "false" : "true");
             logger.info(url);
             Request request = new Request.Builder()
