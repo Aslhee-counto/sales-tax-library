@@ -13,7 +13,9 @@
 	<name>sales-tax-library</name>
 
 	<properties>
-		<counto.core.version>1.0.696-dev</counto.core.version>
+<!--		<counto.core.version>1.0.696-dev</counto.core.version>-->
+		<counto.core.version>1.0.773-dev</counto.core.version>
+
 		<spring-cloud-gcp.version>1.2.5.RELEASE</spring-cloud-gcp.version>
 	</properties>
 <!--	<properties>-->
@@ -124,7 +126,7 @@
 		<dependency>
 			<groupId>com.xion</groupId>
 			<artifactId>internal-dependencies</artifactId>
-			<version>1.0.675-prod</version>
+			<version>${counto.core.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.xion</groupId>
