@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class ListingService {
-
+//TODO >> ORIGINAL VERSION BEFORE EDITING
     private static Logger logger = Logger.getLogger(ListingService.class.getName());
 
     @Autowired private StoreService storeService;
